@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.border-gray-800 {
+  border-color: solid 2px #1f2937;
+}
