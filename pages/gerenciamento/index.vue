@@ -1,5 +1,5 @@
 <script setup>
-const escalaBody = useAgora();
+const escalaBody = escalaState();
 </script>
 
 <template>
@@ -18,12 +18,12 @@ const escalaBody = useAgora();
       </aside>
       <section class="w-full p-5 pt-5">
         <span>teste</span>
-        <ul>
+        <!-- <ul>
           <li v-for="item in escalaBody" :key="item">
             {{ item }}
           </li>
-        </ul>
-        <!-- <div
+        </ul> -->
+        <div
           class="grid grid-cols-7 grid-rows-4 gap-1"
           style="background-color: black; border: 4px solid black"
         >
@@ -42,7 +42,7 @@ const escalaBody = useAgora();
             <small :style="item.color2"></small>
             <small style="background-color: white"></small>
           </span>
-        </div> -->
+        </div>
       </section>
       <aside class="w-[21%]">
         <div class="w-64 mt-5" style="border: 2px solid black">
