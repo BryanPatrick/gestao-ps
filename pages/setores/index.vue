@@ -18,11 +18,6 @@ const escalaBody = escalaState();
       </aside>
       <section class="w-full p-5 pt-5">
         <span>teste</span>
-        <!-- <ul>
-          <li v-for="item in escalaBody" :key="item">
-            {{ item }}
-          </li>
-        </ul> -->
         <div
           class="grid grid-cols-7 grid-rows-4 gap-1"
           style="background-color: black; border: 4px solid black"

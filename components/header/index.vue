@@ -11,14 +11,14 @@ const items = reactive([
     description: "Ir para área de chamados",
   },
   {
-    label: "Gerenciamento",
-    to: "/gerenciamento",
-    description: "Ir a pagina gerenciamento",
-  },
-  {
     label: "Setores",
     to: "/setores",
     description: "Ir a pagina setores",
+  },
+  {
+    label: "Gerenciamento",
+    to: "/gerenciamento",
+    description: "Ir a pagina gerenciamento",
   },
 ]);
 </script>
