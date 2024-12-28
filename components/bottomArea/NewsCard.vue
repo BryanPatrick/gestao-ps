@@ -2,7 +2,7 @@
 const newsCard = reactive([
   {
     title: "Um texto qualquer para exemplificar",
-    image: "Data",
+    image: "bg-[url('')]",
     description: `
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid
           quidem doloribus nesciunt voluptatibus! Voluptatum repellat, sapiente
@@ -10,10 +10,10 @@ const newsCard = reactive([
           nostrum nemo dolore harum?`,
     button: "Saber mais",
     to: "logo ali",
+    local: "PSC",
   },
   {
     title: "Um texto qualquer para exemplificar",
-    image: "Data",
     description: `
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid
           quidem doloribus nesciunt voluptatibus! Voluptatum repellat, sapiente
@@ -21,10 +21,10 @@ const newsCard = reactive([
           nostrum nemo dolore harum?`,
     button: "Saber mais",
     to: "logo ali",
+    local: "PSI",
   },
   {
     title: "Um texto qualquer para exemplificar",
-    image: "Data",
     description: `
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid
           quidem doloribus nesciunt voluptatibus! Voluptatum repellat, sapiente
@@ -32,15 +32,28 @@ const newsCard = reactive([
           nostrum nemo dolore harum?`,
     button: "Saber mais",
     to: "logo ali",
+    local: "PSI",
   },
 ]);
 </script>
 
 <template>
-  <div class="py-5 ml-16" v-for="item in newsCard">
-    <article class="w-60 h-96 shadow-xl overflow-hidden">
-      <div class="h-[40%]" style="background-color: green">
-        <img :src="item.image" alt="Imagem" />
+  <div class="w-full my-5 text-center">
+    <h2 class="text-xl font-semibold">Últimas noticias</h2>
+    <p class="font-light text-xs">Para mais noticias clicar em saber mais</p>
+  </div>
+  <div class="py-5 mx-10" v-for="item in newsCard">
+    <article class="w-60 h-[506px] shadow-xl overflow-hidden">
+      <div class="h-[40%] relative" style="background-color: green">
+        <span
+          class="absolute right-0 top-0 bg-white w-10 text-center rounded-xl"
+          >{{ item.local }}</span
+        >
+        <img
+          class="h-full bg-auto"
+          src="./../../assets/novembro-azul.jpg"
+          alt="Imagem"
+        />
       </div>
       <div class="h-[45%] p-2">
         <h3 class="text-center text-xl font-bold">

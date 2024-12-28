@@ -24,10 +24,7 @@ const items = reactive([
 </script>
 
 <template>
-  <header
-    style="border: solid 2px grey; background-color: white"
-    class="flex h-16 justify-between"
-  >
+  <header class="flex h-16 justify-between">
     <div class="flex items-center py-2 w-80 justify-center">
       <img
         class="h-full px-2"
@@ -46,16 +43,6 @@ const items = reactive([
         {{ item.label }}
       </nuxtLink>
     </div>
-    <div class="w-80">
-      <nuxt-link to="CadastrarLogar">
-        <UButton
-          color="blue"
-          variant="solid"
-          class="my-3 w-28 h-10 fit-content flex justify-center mx-2 float-right"
-        >
-          Entrar
-        </UButton>
-      </nuxt-link>
-    </div>
+    <div class="w-80"></div>
   </header>
 </template>
