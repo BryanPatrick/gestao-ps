@@ -11,9 +11,9 @@ const items = reactive([
     description: "Ir para área de chamados",
   },
   {
-    label: "Setores",
-    to: "/setores",
-    description: "Ir a pagina setores",
+    label: "Treinamentos",
+    to: "/treinamentos",
+    description: "Ir a pagina treinamentos",
   },
   {
     label: "Gerenciamento",

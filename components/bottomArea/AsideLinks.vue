@@ -2,8 +2,7 @@
 
 <template>
   <aside
-    style="border: 2px solid gray"
-    class="flex flex-col w-60 rounded-xl px-5 my-5 font-semibold border-slate-500"
+    class="flex flex-col w-60 rounded-xl px-5 my-5 font-semibold shadow-2xl"
   >
     <h3 class="my-4 text-center font-size font-bold text-lg">Links úteis</h3>
     <nuxt-link

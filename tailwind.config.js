@@ -11,7 +11,7 @@ export default {
   theme: {
     extend: {
       colors: {
-        "gray-800": "#1f2937",
+        "gray-500": "#71717a",
       },
     },
   },
