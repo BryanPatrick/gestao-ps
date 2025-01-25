@@ -1,5 +1,5 @@
 <template>
-  <UCarousel
+  <!-- <UCarousel
     ref="carouselRef"
     v-slot="{ item }"
     :items="items"
@@ -8,7 +8,8 @@
     arrows
   >
     <img :src="item" class="w-full" draggable="false" />
-  </UCarousel>
+  </UCarousel> -->
+  <img src="../assets/banner-alpha.svg" class="w-full h-[400px]" alt="" />
 </template>
 
 <script setup lang="ts">
