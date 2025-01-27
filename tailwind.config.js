@@ -14,6 +14,9 @@ export default {
         "gray-500": "#71717a",
       },
     },
+    fontFamily: {
+      didactGothic: "Didact Gothic",
+    },
   },
   plugins: [],
 };

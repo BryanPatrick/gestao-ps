@@ -1,10 +1,10 @@
 <script></script>
 
 <template>
-  <div class="my-5 flex">
+  <div class="my-12 flex">
     <div class="w-60 text-center flex flex-col items-center">
       <div
-        class="flex items-center justify-center w-[140px] h-[140px] rounded-full shadow-xl overflow-hidden"
+        class="flex items-center justify-center w-[230px] h-[230px] rounded-full shadow-xl overflow-hidden"
       >
         <img src="../../assets/capaciacoes.png" class="" alt="" />
       </div>
@@ -18,8 +18,8 @@
         profissionais</small
       >
     </div>
-    <div class="w-60 text-center flex flex-col items-center mx-14">
-      <div class="w-[140px] h-[140px] rounded-full shadow-xl overflow-hidden">
+    <div class="w-60 text-center flex flex-col items-center mx-32">
+      <div class="w-[230px] h-[230px] rounded-full shadow-xl overflow-hidden">
         <img src="../../assets/escalas.png" class="mt-1" alt="" />
       </div>
       <h3 class="text-lg font-bold">Escalas</h3>
@@ -33,7 +33,7 @@
     </div>
     <div class="w-60 text-center flex flex-col items-center">
       <div
-        class="flex items-center justify-center w-[140px] h-[140px] rounded-full shadow-xl overflow-hidden"
+        class="flex items-center justify-center w-[230px] h-[230px] rounded-full shadow-xl overflow-hidden"
       >
         <img src="../../assets/treinamentos.png" class="w-[90%] mb-3" alt="" />
       </div>

@@ -3,7 +3,7 @@ import MidleLinks from "./MidleLinks.vue";
 </script>
 
 <template>
-  <div class="px-20">
+  <div class="px-5">
     <div class="flex">
       <div class="news flex flex-row justify-center flex-wrap">
         <BottomAreaMidleLinks />
@@ -18,10 +18,10 @@ import MidleLinks from "./MidleLinks.vue";
 
 <style>
 .news {
-  width: 80%;
+  width: 84%;
 }
 .links {
-  width: 20%;
+  width: 16%;
   height: fit-content;
 }
 </style>

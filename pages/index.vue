@@ -5,5 +5,6 @@
     <Header />
     <Carousel />
     <BottomArea />
+    <Rodape />
   </div>
 </template>

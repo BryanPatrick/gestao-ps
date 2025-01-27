@@ -31,11 +31,14 @@ const items = reactive([
         src="../../assets/icon-alpha.png"
         alt="Instituto Alpha"
       />
-      <h3 class="text-xl font-semibold">Alpha Instituto Cubatão</h3>
+      <h3 class="text-xl font-semibold">
+        <span class="text-teal-900 font-bold">Alpha </span>
+        <span class="text-gray-500">Instituto Cubatão</span>
+      </h3>
     </div>
     <div class="flex">
       <nuxtLink
-        class="flex items-center mx-8 text-sm/6 font-semibold"
+        class="flex items-center mx-8 text-lg font-semibold text-teal-900"
         :to="item.to"
         v-for="item in items"
         :key="item.label"
