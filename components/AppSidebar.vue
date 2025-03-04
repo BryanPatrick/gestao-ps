@@ -109,6 +109,7 @@ const navMain = [
                 </CollapsibleContent>
               </SidebarMenuItem>
             </Collapsible>
+
             <SidebarMenuItem v-for="item in items" :key="item.title">
               <SidebarMenuButton asChild>
                 <a :href="item.url">
