@@ -18,12 +18,15 @@ import {
 import { ChevronRight } from "lucide-vue-next";
 
 // Menu items.
-const items = [
+const homeItem = [
   {
     title: "Home",
-    url: "#",
+    url: "/",
     icon: Home,
   },
+];
+
+const items = [
   {
     title: "Inbox",
     url: "#",
@@ -48,12 +51,12 @@ const items = [
 
 const navMain = [
   {
-    title: "Playground",
+    title: "Escalas por setor",
     url: "#",
     isActive: false,
     items: [
       {
-        title: "History",
+        title: "T.I",
         url: "#",
       },
       {
@@ -73,9 +76,18 @@ const navMain = [
   <Sidebar>
     <SidebarContent>
       <SidebarGroup>
-        <SidebarGroupLabel>Application</SidebarGroupLabel>
+        <SidebarGroupLabel>Gerenciamento</SidebarGroupLabel>
         <SidebarGroupContent>
           <SidebarMenu>
+            <SidebarMenuItem v-for="item in homeItem" :key="item.title">
+              <SidebarMenuButton asChild>
+                <a :href="item.url">
+                  <component :is="item.icon" />
+                  <span>{{ item.title }}</span>
+                </a>
+              </SidebarMenuButton>
+            </SidebarMenuItem>
+
             <Collapsible
               v-for="item in navMain"
               :key="item.title"
